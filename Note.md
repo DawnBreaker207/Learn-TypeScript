@@ -67,3 +67,22 @@ let combineValues: (a: number, b: number) => number;
 - Never Types
 - Void Types
 - Undefined Types
+
+#### Classes & Instance
+
+### Objects
+
+- The things you work with in Code
+- **Instances** of classes (= based on classes)
+- Class-based create is an alternative to using object literals
+
+### Classes
+
+- "Blueprints for objects" (theoretical definition)
+- Define how objects look like, which properties and methods they have
+- Classes make creation of multiple, similar objects much easier
+
+### "This" keyword
+
+- Refers to the thing is responsibe for calling a method
+
