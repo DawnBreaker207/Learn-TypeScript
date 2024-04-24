@@ -8,6 +8,6 @@ if (typeof userInput === 'string')
 // Never Type
 function generateError(message, code) {
     throw { message: message, errorCode: code };
+    // while(true){}
 }
-var result = generateError('An error occurred', 500);
-console.log(result);
+generateError('An error occurred', 500);
