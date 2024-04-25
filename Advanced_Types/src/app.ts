@@ -38,6 +38,24 @@ function add(a: Combinable, b: Combinable) {
 const result = add('Tung', 'Anh');
 result.split(' ');
 
+// Optional Chaining
+const fetchedUserData = {
+  id: 'u1',
+  name: 'Anh',
+  job: { title: 'Students', description: 'My own study' },
+};
+
+// Optional Chaining
+console.log(fetchedUserData?.job?.title);
+
+//Nullish Coalescing
+
+const userInput = undefined;
+
+const storedData = userInput ?? 'Default';
+
+console.log(storedData);
+
 // type UnknownEmployee = Employee | Admin;
 
 // function printEmployeeInformation(emp: UnknownEmployee) {
