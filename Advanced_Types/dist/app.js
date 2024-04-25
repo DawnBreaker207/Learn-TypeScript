@@ -60,3 +60,16 @@ function moveAnimal(animal) {
 }
 moveAnimal({ type: 'bird', flyingSpeed: 10 });
 moveAnimal({ type: 'horse', runningSpeed: 10 });
+// Type Casting
+// const userInputElement = <HTMLInputElement>(
+//   document.getElementById('user-input')
+// );
+// const userInputElement = document.getElementById(
+//   'user-input'
+// )! as HTMLInputElement;
+// userInputElement.value = 'Hi there';
+//? Exclamation mark (!): Tell TS the expression in front of will never be null
+const userInputElement = document.getElementById('user-input');
+if (userInputElement) {
+    userInputElement.value = 'Hi there';
+}
